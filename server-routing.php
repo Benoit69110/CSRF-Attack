@@ -1,7 +1,7 @@
 <?php
 
 $requestedPage=$_SERVER["REDIRECT_URL"];
-$router=str_replace('/TP-SERE/','',$requestedPage);
+$router=str_replace('/CSRF-Attack/','',$requestedPage);
 if($router == ''){
     include 'index.php';
     exit;

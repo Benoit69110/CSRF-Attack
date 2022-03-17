@@ -19,7 +19,10 @@ $username = $_SESSION['username'];
                     <a href='logout'>Déconnexion</a>
                 </li>
                 <li>
-                    <a href='change/password'>Modifier son mot de passe</a>
+                    <a href='change/password/level1'>Modifier son mot de passe (niveau de sécurité 1)</a>
+                </li>
+                <li>
+                    <a href='change/password/level2'>Modifier son mot de passe (niveau de sécurité 2)</a>
                 </li>
             <?php } else { ?>
                 <li>

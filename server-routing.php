@@ -7,10 +7,7 @@ if($router[-1]=='/'){
     $router=substr($router, 0, -1);
 }
 
-if($router == ''){
-    include 'index.php';
-    exit;
-}else if($router == 'login'){
+if($router == 'login'){
     include 'login.php';
     exit;
 }else if($router == 'logout'){
@@ -27,7 +24,10 @@ if($router == ''){
     $_POST['level']=2;
     include 'changePassword.php';
     exit;
-}else{
+}else if($router == ''){
+    include 'index.php';
+    exit;
+}else {
     echo "error 404";
     include '404.php';
     exit;

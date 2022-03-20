@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style type="text/css">
+		<?php include 'css/custom.css'; ?>
+        </style>
         <!-- <link rel="stylesheet" href="style.css" /> -->
     </head>
     <body>
@@ -31,7 +34,15 @@
         ?>
 
         <form action="" method="post" name="register">
-            <h1>Inscription</h1>
+        <svg viewBox="0 0 1400 400">
+            <text id="willie" x="50%" y="50%" text-anchor="middle" fill="none">Inscription</text>
+            <use xlink:href="#willie" class="will will1"></use>
+            <use xlink:href="#willie" class="will will2"></use>
+            <use xlink:href="#willie" class="will will3"></use>
+            <use xlink:href="#willie" class="will will4"></use>
+            <use xlink:href="#willie" class="will will5"></use>
+        </svg>
+    
             <input type="text" name="username" placeholder="Nom d'utilisateur" required>
             <input type="password" name="password" placeholder="Mot de passe" required>
             <input type="submit" value="Inscription " name="submit">

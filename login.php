@@ -2,6 +2,10 @@
 <html>
 	<head>
 		<!-- <link rel="stylesheet" href="style.css" /> -->
+		<!-- Custom CSS -->
+		<style type="text/css">
+		<?php include 'css/custom.css'; ?>
+        </style>
 	</head>
 	<body>
 		<?php
@@ -30,10 +34,18 @@
 		?>
 
 		<form action="" method="post" name="login">
-			<h1>Connexion</h1>
+		<svg viewBox="0 0 1600 400">
+            <text id="willie" x="50%" y="50%" text-anchor="middle" fill="none">Connexion</text>
+            <use xlink:href="#willie" class="will will1"></use>
+            <use xlink:href="#willie" class="will will2"></use>
+            <use xlink:href="#willie" class="will will3"></use>
+            <use xlink:href="#willie" class="will will4"></use>
+            <use xlink:href="#willie" class="will will5"></use>
+        </svg>
+		
 			<input type="text" name="username" placeholder="Nom d'utilisateur" required>
 			<input type="password" name="password" placeholder="Mot de passe" required>
-			<input type="submit" value="Connexion " name="submit">
+			<input type="submit" class="btn" value="Connexion " name="submit">
 			<?php if (! empty($message)) { ?>
 				<p class="message"><?php echo $message; ?></p>
 			<?php }  ?>

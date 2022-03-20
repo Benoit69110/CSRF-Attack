@@ -2,6 +2,9 @@
 <html>
     <head>
         <!-- <link rel="stylesheet" href="style.css" /> -->
+        <style type="text/css">
+		<?php include 'css/custom.css'; ?>
+        </style>
     </head>
     <body>
         <?php
@@ -70,7 +73,15 @@
         ?>
 
         <form action="" method="post" name="register">
-            <h1>Modification de votre mot de passe (Sécurité <?php echo $level ?>)</h1>
+        <svg viewBox="0 0 1400 400">
+            <text id="willie" x="50%" y="50%" text-anchor="middle" fill="none">Modification MDP (Sécurité <?php echo $level ?>)</text>
+            <use xlink:href="#willie" class="will will1"></use>
+            <use xlink:href="#willie" class="will will2"></use>
+            <use xlink:href="#willie" class="will will3"></use>
+            <use xlink:href="#willie" class="will will4"></use>
+            <use xlink:href="#willie" class="will will5"></use>
+        </svg>
+        
             <input type="password" name="password" placeholder="Nouveau mot de passe" required>
             <?php if($level==2){ ?>
                 <input type="hidden" name="csrf-token" value="<?php echo $_SESSION['token'] ?>"/>

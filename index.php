@@ -32,13 +32,13 @@ $username = $_SESSION['username'];
         <?php } ?>
         <ol>
             <?php if(!empty($username)){ ?>
-                <button href='logout' class="btn">Déconnexion</button>
-                <button href='change/password/level1' class="btn">Modifier son mot de passe (niveau de sécurité 1)</button>
-                <button href='change/password/level2' class="btn">Modifier son mot de passe (niveau de sécurité 2)</button>
+                <button onclick='window.location="logout"' class="btn">Déconnexion</button>
+                <button onclick='window.location="change/password/level1"' class="btn">Modifier son mot de passe (niveau de sécurité 1)</button>
+                <button onclick='window.location="change/password/level2"' class="btn">Modifier son mot de passe (niveau de sécurité 2)</button>
             <?php } else { ?>
                 
-                <button href='login' class="btn">Se connecter</button>
-                <button href='register' class="btn">s'inscrire</button>
+                <button onclick='window.location="login"' class="btn">Se connecter</button>
+                <button onclick='window.location="register"' class="btn">s'inscrire</button>
 
             <?php } ?>
         </ol>

@@ -45,7 +45,7 @@
 		
 			<input type="text" name="username" placeholder="Nom d'utilisateur" required>
 			<input type="password" name="password" placeholder="Mot de passe" required>
-			<input type="submit" class="btn" value="Connexion " name="submit">
+			<input type="submit" class="btn" value=" Connexion " name="submit">
 			<?php if (! empty($message)) { ?>
 				<p class="message"><?php echo $message; ?></p>
 			<?php }  ?>

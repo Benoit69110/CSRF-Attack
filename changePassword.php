@@ -73,7 +73,7 @@
         ?>
 
         <form action="" method="post" name="register">
-        <svg viewBox="0 0 1400 400">
+        <svg viewBox="0 0 500 200">
             <text id="willie" x="50%" y="50%" text-anchor="middle" fill="none">Modification MDP (Sécurité <?php echo $level ?>)</text>
             <use xlink:href="#willie" class="will will1"></use>
             <use xlink:href="#willie" class="will will2"></use>

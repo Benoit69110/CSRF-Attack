@@ -25,7 +25,7 @@ if($router == 'login'){
     include 'changePassword.php';
     exit;
 }else if($router == ''){
-    include 'register.php';
+    include 'index.php';
     exit;
 }else {
     echo "error 404";

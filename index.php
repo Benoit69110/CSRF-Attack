@@ -15,7 +15,7 @@ $username = $_SESSION['username'];
     </head>
     <body>
         
-        <svg viewBox="0 0 1400 400">
+        <svg viewBox="0 0 1400 250">
             <text id="willie" x="50%" y="50%" text-anchor="middle" fill="none">Bienvenue</text>
             <use xlink:href="#willie" class="will will1"></use>
             <use xlink:href="#willie" class="will will2"></use>

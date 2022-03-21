@@ -34,7 +34,7 @@
 		?>
 
 		<form action="" method="post" name="login">
-		<svg viewBox="0 0 1600 400">
+		<svg viewBox="0 0 1600 200">
             <text id="willie" x="50%" y="50%" text-anchor="middle" fill="none">Connexion</text>
             <use xlink:href="#willie" class="will will1"></use>
             <use xlink:href="#willie" class="will will2"></use>
@@ -45,12 +45,12 @@
 		
 			<input type="text" name="username" placeholder="Nom d'utilisateur" required>
 			<input type="password" name="password" placeholder="Mot de passe" required>
-			<input type="submit" class="btn" value=" Connexion " name="submit">
+			<input type="submit" class="myBtn" value=" Connexion " name="submit">
 			<?php if (! empty($message)) { ?>
 				<p class="message"><?php echo $message; ?></p>
 			<?php }  ?>
 		</form>
-		<p>Vous êtes nouveau ici? <a href="register">S'inscrire</a></p>
+		<p>Vous êtes nouveau ici? <a class="myBtn" href="register">S'inscrire</a></p>
 
 	</body>
 </html>

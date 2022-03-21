@@ -49,13 +49,13 @@ button.btn {
 
  margin: 30px 0 15px 15px;
   letter-spacing: 1px;
-  color: #767373;
+  color: #d3cdcd;
   background-color: transparent;
   border: 0;
   transition:ease-in-out 0.5s;
 }
 button.btn:hover{
-  background-color: #9bb6c5;
+  background-color: #d3cdcd;
   padding: 10px;
   color: #36518c;
   border-radius: 20px;
@@ -66,7 +66,7 @@ svg{
 }
 .will{
   fill: none;
-  stroke: #555;
+  stroke: #d3cdcd;
   stroke-width: 3px;
   stroke-dasharray:8% 30%;
   stroke-dashoffset: 0;
@@ -97,4 +97,21 @@ svg{
 .will5{
   stroke: #36518c;
   animation-delay: -5s;
+}
+
+
+
+.myBtn {
+  margin: 30px 0 15px 15px;
+  letter-spacing: 1px;
+  color: #d3cdcd;
+  background-color: transparent;
+  border: 0;
+  transition:ease-in-out 0.5s;
+}
+.myBtn:hover{
+  background-color: #9bb6c5;
+  padding: 10px;
+  color: #36518c;
+  border-radius: 20px;
 }

@@ -34,7 +34,7 @@
         ?>
 
         <form action="" method="post" name="register">
-        <svg viewBox="0 0 1400 400">
+        <svg viewBox="0 0 1400 200">
             <text id="willie" x="50%" y="50%" text-anchor="middle" fill="none">Inscription</text>
             <use xlink:href="#willie" class="will will1"></use>
             <use xlink:href="#willie" class="will will2"></use>
@@ -45,11 +45,11 @@
     
             <input type="text" name="username" placeholder="Nom d'utilisateur" required>
             <input type="password" name="password" placeholder="Mot de passe" required>
-            <input type="submit" value=" Inscription " name="submit">
+            <input type="submit" class="myBtn" value=" Inscription " name="submit">
             <?php if (! empty($message)) { ?>
                 <p class="message"><?php echo $message; ?></p>
             <?php } ?>
         </form>
-        <p>Vous êtes déjà inscrit ? <a href="login">Se connecter</a></p>
+        <p>Vous êtes déjà inscrit ? </br> <a class="myBtn" href="login">Se connecter</a></p>
     </body>
 </html>
